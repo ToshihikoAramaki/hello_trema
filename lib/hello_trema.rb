@@ -2,8 +2,7 @@
 class HelloTrema < Trema::Controller
 
   def start(_args)
-    s = "Hi, Trema started " + self.class.to_s + "!!"
-    logger.info s 
+    logger.info ("Hi, Trema started " + self.class.to_s + "!!")
 
   end
 
